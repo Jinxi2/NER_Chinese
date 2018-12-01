@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d231c373-a704-488d-af97-f95bdb868876" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data_path/test_bjtu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_path/train_bjtu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_path/train_pd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bilstm_cnn_crf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lstm_crf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_path_save/1521112368/results/label_test" beforeDir="false" afterPath="$PROJECT_DIR$/data_path_save/1521112368/results/label_test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_path_save/1521112368/results/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_path_save/1521112368/results/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_path_save/1521112368/results/result_metric_test" beforeDir="false" afterPath="$PROJECT_DIR$/data_path_save/1521112368/results/result_metric_test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/train.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bilstm_crf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
-    </list>
+    <list default="true" id="d231c373-a704-488d-af97-f95bdb868876" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,8 +200,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="136">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -307,8 +286,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1028" />
-    <option name="y" value="93" />
+    <option name="x" value="495" />
+    <option name="y" value="149" />
     <option name="width" value="988" />
     <option name="height" value="797" />
   </component>
@@ -519,7 +498,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1028" y="93" width="988" height="797" extended-state="0" />
+    <frame x="495" y="149" width="988" height="797" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21820062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -729,9 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="136">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
         </state>
       </provider>
     </entry>
