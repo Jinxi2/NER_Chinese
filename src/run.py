@@ -1,3 +1,6 @@
+# coding=utf-8
+
+
 '''
 Chinese NER
 model: BiLSTM + CRF
@@ -11,9 +14,11 @@ import os
 import sys
 import argparse
 import time
-from model import BiLSTM_CRF
+from cnn import CNN
+from lstm_crf import LSTM_CRF
+from bilstm_crf import BiLSTM_CRF
 from utils import str2bool, get_logger
-from data import tag2label, read_corpus, read_dictionary, random_embedding
+from data import tag2label, read_corpus, read_dictionary, random_embedding, read_corpus_from_bjtu
 
 # curPath = os.path.abspath(os.path.dirname(__file__))
 # rootPath = os.path.split(curPath)[0]
@@ -80,8 +85,8 @@ get_logger(log_path).info(str(args))
 
 train_path = os.path.join('.', args.train_data, 'train_data')
 test_path = os.path.join('.', args.test_data, 'test_data')
-train_data = read_corpus(train_path)
-test_data = read_corpus(test_path)
+train_data = read_corpus_from_bjtu('data_path/train_bjtu')
+test_data = read_corpus_from_bjtu('data_path/test_bjtu')
 test_size = len(test_data)
 
 

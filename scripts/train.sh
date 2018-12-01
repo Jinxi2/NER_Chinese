@@ -5,12 +5,12 @@
 # {"0", "B-PER", "I-PER", "B-LOC", "I-LOC", "B-ORG", "I-ORG"}
 # reference: https://github.com/Determined22/zh-NER-TF
 
-/Users/guomengfei/venv/bin/python3.7 ./src/run.py \
+~/anaconda3/bin/python ./src/run.py \
 --mode 'train' \
 --train_data 'data_path' \
 --test_data 'data_path' \
 --batch_size 64 \
---epoch 40 \
+--epoch 2 \
 --hidden_dim 300 \
 --lr 0.001 \
 --clip 5.0 \

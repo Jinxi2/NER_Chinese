@@ -5,7 +5,7 @@
 # {"0", "B-PER", "I-PER", "B-LOC", "I-LOC", "B-ORG", "I-ORG"}
 # reference: https://github.com/Determined22/zh-NER-TF
 
-/Users/guomengfei/venv/bin/python3.7 ./src/run.py \
+~/anaconda3/bin/python ./src/run.py \
 --mode 'test' \
 --train_data 'data_path' \
 --test_data 'data_path' \
@@ -26,4 +26,4 @@
 ## update_embedding: True/False, update embedding during training
 ## pretraining_embedding: use pretrained char embedding or init it randomly
 ## shuffle: shuffle training data before each epoch
-## demo_model: model for test and demo, in data_path_save
+## demo_model: model for test and demo, in data_path_save. while using your new trained model, change it.

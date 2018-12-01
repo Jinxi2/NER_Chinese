@@ -1,0 +1,47 @@
+2018-12-01 11:29:09,062:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=2, hidden_dim=300, lr=0.001, mode='train', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-12-01 11:29:15,845:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+2018-12-01 11:29:15,845:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+2018-12-01 11:29:15,846:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+2018-12-01 11:29:15,846:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+2018-12-01 11:29:21,789:INFO: epoch 1, step 1, loss: 208.3, global_step: 1
+2018-12-01 11:29:21,789:INFO: epoch 1, step 1, loss: 208.3, global_step: 1
+2018-12-01 11:29:51,925:INFO: epoch 1, step 11, loss: 38.59, global_step: 11
+2018-12-01 11:29:51,925:INFO: epoch 1, step 11, loss: 38.59, global_step: 11
+2018-12-01 11:30:25,009:INFO: epoch 1, step 21, loss: 17.73, global_step: 21
+2018-12-01 11:30:25,009:INFO: epoch 1, step 21, loss: 17.73, global_step: 21
+2018-12-01 11:30:59,873:INFO: epoch 1, step 31, loss: 33.33, global_step: 31
+2018-12-01 11:30:59,873:INFO: epoch 1, step 31, loss: 33.33, global_step: 31
+2018-12-01 11:31:31,436:INFO: epoch 1, step 41, loss: 38.67, global_step: 41
+2018-12-01 11:31:31,436:INFO: epoch 1, step 41, loss: 38.67, global_step: 41
+2018-12-01 11:32:10,126:INFO: epoch 1, step 51, loss: 29.91, global_step: 51
+2018-12-01 11:32:10,126:INFO: epoch 1, step 51, loss: 29.91, global_step: 51
+2018-12-01 11:32:43,513:INFO: epoch 1, step 61, loss: 30.87, global_step: 61
+2018-12-01 11:32:43,513:INFO: epoch 1, step 61, loss: 30.87, global_step: 61
+2018-12-01 11:33:15,447:INFO: epoch 1, step 71, loss: 20.46, global_step: 71
+2018-12-01 11:33:15,447:INFO: epoch 1, step 71, loss: 20.46, global_step: 71
+2018-12-01 11:33:48,878:INFO: epoch 1, step 81, loss: 33.94, global_step: 81
+2018-12-01 11:33:48,878:INFO: epoch 1, step 81, loss: 33.94, global_step: 81
+2018-12-01 11:34:19,836:INFO: epoch 1, step 91, loss: 9.761, global_step: 91
+2018-12-01 11:34:19,836:INFO: epoch 1, step 91, loss: 9.761, global_step: 91
+2018-12-01 11:35:03,067:INFO: epoch 1, step 101, loss: 15.54, global_step: 101
+2018-12-01 11:35:03,067:INFO: epoch 1, step 101, loss: 15.54, global_step: 101
+2018-12-01 11:35:46,271:INFO: epoch 1, step 111, loss: 15.8, global_step: 111
+2018-12-01 11:35:46,271:INFO: epoch 1, step 111, loss: 15.8, global_step: 111
+2018-12-01 11:36:28,424:INFO: epoch 1, step 121, loss: 14.92, global_step: 121
+2018-12-01 11:36:28,424:INFO: epoch 1, step 121, loss: 14.92, global_step: 121
+2018-12-01 11:37:19,847:INFO: epoch 1, step 131, loss: 15.87, global_step: 131
+2018-12-01 11:37:19,847:INFO: epoch 1, step 131, loss: 15.87, global_step: 131
+2018-12-01 11:37:57,411:INFO: epoch 1, step 141, loss: 6.118, global_step: 141
+2018-12-01 11:37:57,411:INFO: epoch 1, step 141, loss: 6.118, global_step: 141
+2018-12-01 11:38:15,491:INFO: epoch 1, step 151, loss: 11.78, global_step: 151
+2018-12-01 11:38:15,491:INFO: epoch 1, step 151, loss: 11.78, global_step: 151
+2018-12-01 11:38:33,031:INFO: epoch 1, step 161, loss: 10.26, global_step: 161
+2018-12-01 11:38:33,031:INFO: epoch 1, step 161, loss: 10.26, global_step: 161

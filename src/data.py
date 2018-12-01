@@ -1,3 +1,5 @@
+# coding=utf-8
+
 import os
 import pickle
 import numpy as np
@@ -25,12 +27,7 @@ def read_corpus(path):
             data.append((sent,tag))
             sent, tag = [], []
     return data
-#
-#
-# def vocab_build(vocab_path, corpus_path, min_count):
-#     data = read_corpus(corpus_path)
-#     word2id = {}
-#
+
 
 def sentence2id(sent, word2id):
     sentence_id = []
@@ -47,7 +44,6 @@ def sentence2id(sent, word2id):
 
 def random_embedding(vocab, embedding_dim):
     """
-
     :param vocab:
     :param embedding_dim:
     :return:
@@ -97,3 +93,23 @@ def batch_yield(data, batch_size, vocab, tag2label, shuffle=False):
         labels.append(label)
     if len(seqs) != 0:
         yield seqs, labels
+
+
+def read_corpus_from_bjtu(path):
+    data = []
+    sent, tag = [], []
+    with open(path, encoding='utf-8') as f:
+        lines = f.readlines()
+#        for line in f:
+    for line in lines:
+        if line != '\n':
+            [char, label] = line.strip().split('\t')
+            sent.append(char)
+            tag.append(label)
+            # print(sent)
+        else:
+            data.append((sent,tag))
+            sent, tag = [], []
+            # print(data)
+    print(len(data))
+    return data

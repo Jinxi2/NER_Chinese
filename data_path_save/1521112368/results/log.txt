@@ -112,3 +112,100 @@
 2018-11-27 17:32:36,324:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
 2018-11-27 17:32:36,324:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
 2018-11-27 17:34:29,097:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 13:43:30,588:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 13:43:57,159:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:01:10,468:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:01:28,870:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:13:28,188:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:13:35,850:INFO: ============= testing =============
+2018-11-30 14:13:35,850:INFO: ============= testing =============
+2018-11-30 14:13:35,850:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:13:35,850:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:13:36,089:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-11-30 14:13:36,089:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-11-30 14:15:20,659:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:15:28,230:INFO: ============= testing =============
+2018-11-30 14:15:28,230:INFO: ============= testing =============
+2018-11-30 14:15:28,230:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:15:28,230:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:15:28,402:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-11-30 14:15:28,402:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-11-30 14:16:43,491:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:17:24,936:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:17:33,180:INFO: ============= testing =============
+2018-11-30 14:17:33,180:INFO: ============= testing =============
+2018-11-30 14:17:33,181:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:17:33,181:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:17:33,387:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-11-30 14:17:33,387:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-11-30 14:17:56,223:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:18:04,315:INFO: ============= testing =============
+2018-11-30 14:18:04,315:INFO: ============= testing =============
+2018-11-30 14:18:04,315:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:18:04,315:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:18:04,489:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-11-30 14:18:04,489:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-11-30 14:19:02,170:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:19:10,640:INFO: ============= testing =============
+2018-11-30 14:19:10,640:INFO: ============= testing =============
+2018-11-30 14:19:10,640:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:19:10,640:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:19:10,809:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-11-30 14:19:10,809:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-11-30 14:19:28,302:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:20:20,125:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:20:28,415:INFO: ============= testing =============
+2018-11-30 14:20:28,415:INFO: ============= testing =============
+2018-11-30 14:20:28,415:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:20:28,415:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:20:28,582:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-11-30 14:20:28,582:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-11-30 14:22:23,455:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:27:10,015:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:27:27,225:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:27:37,163:INFO: ============= testing =============
+2018-11-30 14:27:37,163:INFO: ============= testing =============
+2018-11-30 14:27:37,164:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:27:37,164:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:36:34,791:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:36:44,748:INFO: ============= testing =============
+2018-11-30 14:36:44,748:INFO: ============= testing =============
+2018-11-30 14:36:44,748:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:36:44,748:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:42:36,438:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 14:42:46,609:INFO: ============= testing =============
+2018-11-30 14:42:46,609:INFO: ============= testing =============
+2018-11-30 14:42:46,610:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 14:42:46,610:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 18:00:07,967:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-11-30 18:00:18,092:INFO: ============= testing =============
+2018-11-30 18:00:18,092:INFO: ============= testing =============
+2018-11-30 18:00:18,092:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-11-30 18:00:18,092:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-12-01 10:20:23,287:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-12-01 10:20:30,441:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+2018-12-01 10:20:30,441:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+2018-12-01 10:20:30,441:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+2018-12-01 10:20:30,441:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+2018-12-01 10:20:31,995:INFO: ============= testing =============
+2018-12-01 10:20:31,995:INFO: ============= testing =============
+2018-12-01 10:20:31,995:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-12-01 10:20:31,995:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-12-01 10:28:21,264:INFO: processed 2253947 tokens with 75390 phrases; found: 75423 phrases; correct: 32837.
+2018-12-01 10:28:21,264:INFO: processed 2253947 tokens with 75390 phrases; found: 75423 phrases; correct: 32837.
+2018-12-01 10:28:21,264:INFO: accuracy:  94.33%; precision:  43.54%; recall:  43.56%; FB1:  43.55
+2018-12-01 10:28:21,264:INFO: accuracy:  94.33%; precision:  43.54%; recall:  43.56%; FB1:  43.55
+2018-12-01 10:28:21,264:INFO: LOC: precision:  69.36%; recall:  72.62%; FB1:  70.95  32714
+2018-12-01 10:28:21,264:INFO: LOC: precision:  69.36%; recall:  72.62%; FB1:  70.95  32714
+2018-12-01 10:28:21,264:INFO: ORG: precision:  23.75%; recall:  86.20%; FB1:  37.24  20347
+2018-12-01 10:28:21,264:INFO: ORG: precision:  23.75%; recall:  86.20%; FB1:  37.24  20347
+2018-12-01 10:28:21,265:INFO: PER: precision:  23.76%; recall:  13.79%; FB1:  17.45  22362
+2018-12-01 10:28:21,265:INFO: PER: precision:  23.76%; recall:  13.79%; FB1:  17.45  22362
