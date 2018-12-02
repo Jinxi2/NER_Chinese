@@ -5,7 +5,7 @@
 # {"0", "B-PER", "I-PER", "B-LOC", "I-LOC", "B-ORG", "I-ORG"}
 # reference: https://github.com/Determined22/zh-NER-TF
 
-~/anaconda3/bin/python ./src/run.py \
+/home/guomengfei/anaconda3/bin/python ./src/run.py \
 --mode 'test' \
 --train_data 'data_path' \
 --test_data 'data_path' \

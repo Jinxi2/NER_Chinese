@@ -3,21 +3,6 @@
 
 import os
 
-def read_corpus_from_bjtu(path):
-    data = []
-    with open('train_pd.txt', encoding='GB2312') as f:
-        lines = f.readlines()
-    sent, tag = [], []
-    for line in lines:
-        if line != '\n':
-            [char, label] = line.strip().split()
-            sent.append(char)
-            tag.append(label)
-        else:
-            data.append((sent,tag))
-            sent, tag = [], []
-    return data
-
 def data_op():
     out = open('train_bjtu','w',encoding='utf-8')
     out_test = open('test_bjtu','w',encoding='utf-8')
@@ -56,6 +41,26 @@ def data_op():
             l=l+1
             out.write('\n')
 
+def op_on_bjtu():
+    f = open('train_bjtu')
+    out = open('train_bjtu_1','w')
+    old_line = '\t'
+    for line in f:
+        if line == '\n':
+            out.write('\n')
+            continue
+        item = line.split('\n')[0].split('\t')
+        old_item = old_line.split('\n')[0].split('\t')
+        if old_item[1] == 'B-PER' and item[1] == 'B-PER':
+            out.write('%s\tI-PER\n' % item[0])
+            print(old_line)
+            print(line)
+        else:
+            out.write(line)
+        old_line = line
+
+
 # path = os.path.join('.', 'data_path', 'train_data')
 # read_corpus_from_bjtu(path)
-data_op()
+# data_op()
+op_on_bjtu()

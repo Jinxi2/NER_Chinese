@@ -209,3 +209,49 @@ batch_dim is deprecated, use batch_axis instead
 2018-12-01 10:28:21,264:INFO: ORG: precision:  23.75%; recall:  86.20%; FB1:  37.24  20347
 2018-12-01 10:28:21,265:INFO: PER: precision:  23.76%; recall:  13.79%; FB1:  17.45  22362
 2018-12-01 10:28:21,265:INFO: PER: precision:  23.76%; recall:  13.79%; FB1:  17.45  22362
+2018-12-02 01:24:51,588:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-12-02 01:24:58,375:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+2018-12-02 01:24:58,375:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+2018-12-02 01:24:58,377:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+2018-12-02 01:24:58,377:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+2018-12-02 01:24:59,913:INFO: ============= testing =============
+2018-12-02 01:24:59,913:INFO: ============= testing =============
+2018-12-02 01:24:59,913:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-12-02 01:24:59,913:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-12-02 01:25:00,225:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-12-02 01:25:00,225:INFO: processed 0 tokens with 0 phrases; found: 0 phrases; correct: 0.
+2018-12-02 01:50:43,601:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-12-02 01:50:50,391:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+2018-12-02 01:50:50,391:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+2018-12-02 01:50:50,392:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+2018-12-02 01:50:50,392:WARNING: From /home/guomengfei/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+2018-12-02 01:50:51,840:INFO: ============= testing =============
+2018-12-02 01:50:51,840:INFO: ============= testing =============
+2018-12-02 01:50:51,840:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-12-02 01:50:51,840:INFO: Restoring parameters from ./data_path_save/1521112368/checkpoints/model-31680
+2018-12-02 01:58:45,761:INFO: processed 2253947 tokens with 59301 phrases; found: 75423 phrases; correct: 47302.
+2018-12-02 01:58:45,761:INFO: processed 2253947 tokens with 59301 phrases; found: 75423 phrases; correct: 47302.
+2018-12-02 01:58:45,762:INFO: accuracy:  94.99%; precision:  62.72%; recall:  79.77%; FB1:  70.22
+2018-12-02 01:58:45,762:INFO: accuracy:  94.99%; precision:  62.72%; recall:  79.77%; FB1:  70.22
+2018-12-02 01:58:45,762:INFO: LOC: precision:  69.36%; recall:  72.62%; FB1:  70.95  32714
+2018-12-02 01:58:45,762:INFO: LOC: precision:  69.36%; recall:  72.62%; FB1:  70.95  32714
+2018-12-02 01:58:45,762:INFO: ORG: precision:  23.75%; recall:  86.20%; FB1:  37.24  20347
+2018-12-02 01:58:45,762:INFO: ORG: precision:  23.75%; recall:  86.20%; FB1:  37.24  20347
+2018-12-02 01:58:45,762:INFO: PER: precision:  88.45%; recall:  88.11%; FB1:  88.28  22362
+2018-12-02 01:58:45,762:INFO: PER: precision:  88.45%; recall:  88.11%; FB1:  88.28  22362
