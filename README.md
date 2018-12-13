@@ -1,13 +1,15 @@
 # NER_Chinese
-##usage:
-####train:
+## usage:
+#### train:
     ./scripts/train.sh
 
-####test:
+#### test:
     ./scripts/test.sh
 
-####set parameters:
+#### set parameters:
     vim ./scripts/train.sh
 
-#####or
+##### or
     vim ./scripts/test.sh
+    
+hint: maybe you need to change the location of python or project to your own.
